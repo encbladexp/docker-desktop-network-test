@@ -1,0 +1,6 @@
+---
+services:
+  ip_show_route:
+    build:
+      context: .
+    network_mode: host
