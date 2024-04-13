@@ -6,11 +6,19 @@ by just showing the visible network environment from within Docker Desktop.
 
 # Usage
 
-Just clone this repository through `git`, and of course ensure you have a working
-Docker environment available (e.g. Docker Desktop, OrbStack, ...)/
+Just run the following command on a host that has Docker Desktop, OrbStack or
+whatever is providing your Docker Daemon.
 
-```shell
-./run.sh
+```bash
+docker container run --rm --network=host encbladexp/docker-desktop-network-test
+```
+
+Of course, you got the full service and could also use the `docker-compose.yml`
+provided:
+
+```bash
+docker compose up
+docker compose down
 ```
 
 # Example

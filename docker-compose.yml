@@ -1,6 +1,5 @@
 ---
 services:
   ip_show_route:
-    build:
-      context: .
+    image: encbladexp/docker-desktop-network-test:latest
     network_mode: host
