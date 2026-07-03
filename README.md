@@ -10,7 +10,7 @@ Just run the following command on a host that has Docker Desktop, OrbStack or
 whatever is providing your Docker Daemon.
 
 ```bash
-docker container run --rm --network=host encbladexp/docker-desktop-network-test
+docker container run --rm --network=host ghcr.io/encbladexp/docker-desktop-network-test
 ```
 
 Of course, you got the full service and could also use the `docker-compose.yml`

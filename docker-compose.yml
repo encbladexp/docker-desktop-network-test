@@ -1,5 +1,5 @@
 ---
 services:
   ip_show_route:
-    image: encbladexp/docker-desktop-network-test:latest
+    image: ghcr.io/encbladexp/docker-desktop-network-test:latest
     network_mode: host
